@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=67", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyebbr"
+version = "0.1.0"
+description = "Empirical Bayes binomial regression tools inspired by dgrtwo/ebbr"
+readme = "README.md"
+authors = [
+  { name = "EzraAir", email = "automation@example.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.23",
+  "pandas>=1.5",
+  "scipy>=1.11"
+]
+
+[project.urls]
+Homepage = "https://github.com/ezraair/py-ebbr"
+Documentation = "https://github.com/ezraair/py-ebbr/tree/main/docs"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

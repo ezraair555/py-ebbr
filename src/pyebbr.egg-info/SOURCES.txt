@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyebbr/__init__.py
+src/pyebbr/estimation.py
+src/pyebbr/mixture.py
+src/pyebbr/prior.py
+src/pyebbr/testing.py
+src/pyebbr.egg-info/PKG-INFO
+src/pyebbr.egg-info/SOURCES.txt
+src/pyebbr.egg-info/dependency_links.txt
+src/pyebbr.egg-info/requires.txt
+src/pyebbr.egg-info/top_level.txt
+tests/test_prior.py
