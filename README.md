@@ -1,5 +1,7 @@
 # pyebbr
 
+[![Python package](https://github.com/ezraair555/py-ebbr/actions/workflows/python-app.yml/badge.svg)](https://github.com/ezraair555/py-ebbr/actions/workflows/python-app.yml)
+
 A Python port of David Robinson's [`ebbr`](https://github.com/dgrtwo/ebbr) R package for empirical Bayes binomial estimation. The goal is feature parity with the original toolkit—fit beta priors, shrink noisy proportions, run Bayesian proportion tests, and experiment with beta-mixture priors—while feeling natural to Python users (NumPy/Pandas APIs, SciPy under the hood).
 
 ## Installation
