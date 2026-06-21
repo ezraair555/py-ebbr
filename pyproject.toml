@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Empirical Bayes binomial regression tools inspired by dgrtwo/ebbr"
 readme = "README.md"
 authors = [
-  { name = "EzraAir", email = "automation@example.com" }
+  { name = "EzraAir555", email = "ezraair555@gmail.com" }
 ]
 license = { text = "MIT" }
 requires-python = ">=3.10"
